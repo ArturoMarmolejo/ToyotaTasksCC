@@ -28,13 +28,14 @@ The app follows a simple Model-View-ViewModel (MVVM) and Clean Architecture/Andr
 the following packages:
 
 * **Data:** Represents the data structures used and the database set up
-* **DI** Module for dependency injection
+* **DI** Module for dependency injection through the use of the Hilt library
 * **core** Package for common functionalities and key features such as state management.
 * **Presentation:** Displays the list of tasks/notes added by the user through the use of a LazyLayout.
 
 ## Libraries
 
 * Kotlin Coroutines
+* Hilt
 * Jetpack Compose
 * Room Database
 * Jetpack Compose
