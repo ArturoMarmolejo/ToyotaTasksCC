@@ -12,8 +12,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.arturomarmolejo.toyotataskscc.data.presentation.navigation.TaskNavigation
-import com.arturomarmolejo.toyotataskscc.data.presentation.viewmodel.TasksViewModel
+import com.arturomarmolejo.toyotataskscc.presentation.navigation.TaskNavigation
+import com.arturomarmolejo.toyotataskscc.presentation.viewmodel.TasksViewModel
 import com.arturomarmolejo.toyotataskscc.ui.theme.ToyotaTasksCCTheme
 import dagger.hilt.android.AndroidEntryPoint
 

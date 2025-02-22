@@ -1,4 +1,4 @@
-package com.arturomarmolejo.toyotataskscc.data.presentation.ui
+package com.arturomarmolejo.toyotataskscc.presentation.ui
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement

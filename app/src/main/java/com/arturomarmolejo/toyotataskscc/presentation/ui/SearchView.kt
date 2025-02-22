@@ -1,4 +1,4 @@
-package com.arturomarmolejo.toyotataskscc.data.presentation.ui
+package com.arturomarmolejo.toyotataskscc.presentation.ui
 
 import android.widget.SearchView
 import androidx.compose.foundation.layout.fillMaxWidth

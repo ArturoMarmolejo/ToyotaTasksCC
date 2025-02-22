@@ -1,4 +1,4 @@
-package com.arturomarmolejo.toyotataskscc.data.presentation.viewmodel
+package com.arturomarmolejo.toyotataskscc.presentation.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope

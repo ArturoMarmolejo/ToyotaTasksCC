@@ -1,4 +1,4 @@
-package com.arturomarmolejo.toyotataskscc.data.presentation.ui
+package com.arturomarmolejo.toyotataskscc.presentation.ui
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -22,7 +22,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.arturomarmolejo.toyotataskscc.R
 import com.arturomarmolejo.toyotataskscc.data.model.TaskEntity
-import com.arturomarmolejo.toyotataskscc.data.presentation.viewmodel.TasksViewModel
+import com.arturomarmolejo.toyotataskscc.presentation.viewmodel.TasksViewModel
 
 @Composable
 fun DetailScreen(

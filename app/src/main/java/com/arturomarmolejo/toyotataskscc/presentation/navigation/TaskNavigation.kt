@@ -1,12 +1,12 @@
-package com.arturomarmolejo.toyotataskscc.data.presentation.navigation
+package com.arturomarmolejo.toyotataskscc.presentation.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.arturomarmolejo.toyotataskscc.data.presentation.ui.DetailScreen
-import com.arturomarmolejo.toyotataskscc.data.presentation.ui.HomeScreen
-import com.arturomarmolejo.toyotataskscc.data.presentation.viewmodel.TasksViewModel
+import com.arturomarmolejo.toyotataskscc.presentation.ui.DetailScreen
+import com.arturomarmolejo.toyotataskscc.presentation.ui.HomeScreen
+import com.arturomarmolejo.toyotataskscc.presentation.viewmodel.TasksViewModel
 
 @Composable
 fun TaskNavigation(

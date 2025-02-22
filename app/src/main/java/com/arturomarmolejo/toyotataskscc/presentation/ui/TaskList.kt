@@ -1,4 +1,4 @@
-package com.arturomarmolejo.toyotataskscc.data.presentation.ui
+package com.arturomarmolejo.toyotataskscc.presentation.ui
 
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed

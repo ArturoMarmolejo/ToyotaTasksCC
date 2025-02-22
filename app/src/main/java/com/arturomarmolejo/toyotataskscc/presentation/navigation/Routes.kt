@@ -1,4 +1,4 @@
-package com.arturomarmolejo.toyotataskscc.data.presentation.navigation
+package com.arturomarmolejo.toyotataskscc.presentation.navigation
 
 sealed class Routes(val route: String) {
     data object HomeScreen: Routes("HomeScreen")

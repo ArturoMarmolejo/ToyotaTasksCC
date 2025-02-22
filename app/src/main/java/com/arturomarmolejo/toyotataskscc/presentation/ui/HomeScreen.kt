@@ -1,4 +1,4 @@
-package com.arturomarmolejo.toyotataskscc.data.presentation.ui
+package com.arturomarmolejo.toyotataskscc.presentation.ui
 
 import android.widget.Toast
 import androidx.compose.foundation.layout.Box
@@ -27,8 +27,8 @@ import androidx.navigation.NavController
 import com.arturomarmolejo.toyotataskscc.R
 import com.arturomarmolejo.toyotataskscc.core.UIState
 import com.arturomarmolejo.toyotataskscc.data.model.TaskEntity
-import com.arturomarmolejo.toyotataskscc.data.presentation.navigation.Routes
-import com.arturomarmolejo.toyotataskscc.data.presentation.viewmodel.TasksViewModel
+import com.arturomarmolejo.toyotataskscc.presentation.navigation.Routes
+import com.arturomarmolejo.toyotataskscc.presentation.viewmodel.TasksViewModel
 
 @Composable
 fun HomeScreen(
