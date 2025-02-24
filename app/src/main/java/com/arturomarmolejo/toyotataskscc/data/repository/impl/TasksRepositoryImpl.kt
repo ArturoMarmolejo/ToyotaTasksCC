@@ -10,6 +10,13 @@ import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
 import javax.inject.Inject
 
+
+/**
+ * [TasksRepositoryImpl] - Implementation for the logic encapsulated for [TaskRepository]
+ * This class is not meant to be used or exposed outside this layer outside testing purposes.
+ * This class holds the actual calls for the queries present in [TaskDao] using Flows, along with error
+ * handling.
+ */
 class TasksRepositoryImpl @Inject constructor(
     private val taskDao: TaskDao,
     private val coroutineDispatcher: CoroutineDispatcher

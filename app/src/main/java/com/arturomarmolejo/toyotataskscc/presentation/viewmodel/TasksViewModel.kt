@@ -11,6 +11,13 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
+
+/**
+ * [TasksViewModel]: Viewmodel used to handle the UI stream of data from the database to the UI
+ * in a lifecycle aware manner. Notice the use of the viewmodel scope for both methods, along with
+ * the [getAllTasks] method upon its initialization, in order to call the database once the user
+ * opens the App and displays de main screen. Exceptions are already handled in [TaskRepository]
+ */
 @HiltViewModel
 class TasksViewModel @Inject constructor(
     private val taskRepository: TaskRepository

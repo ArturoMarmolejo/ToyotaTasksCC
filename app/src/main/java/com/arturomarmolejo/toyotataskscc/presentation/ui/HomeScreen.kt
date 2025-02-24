@@ -53,6 +53,7 @@ fun HomeScreen(
         }
     ) { innerPadding ->
         Box(modifier = modifier.fillMaxSize()) {
+            // Collection of the allTasks flow in a lifecycle aware manner.
             when (val uiState = tasksViewModel.allTasks.collectAsStateWithLifecycle().value) {
                 is UIState.LOADING -> {
                     CircularProgressIndicator()
